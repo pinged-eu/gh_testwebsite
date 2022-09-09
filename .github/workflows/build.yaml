@@ -52,6 +52,8 @@ jobs:
           echo "Node: $(node -v)"
           echo "Yarn: $(yarn -v)"
           echo "NG: $(ng version)"
+      - name: install packages
+        run: yarn install
       - name: build it with ng
         run: |
           ng build
