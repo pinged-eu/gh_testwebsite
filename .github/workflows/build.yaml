@@ -21,12 +21,11 @@ jobs:
           node-version: 18
       - name: install clients
         run: |
-          npm install -g @vue/cli
           npm install -g @angular/cli
       - name: build it
         run: |
           yarn
       - name: test angular
         run: ng test
-      - name: test angular e2e
-        run: ng e2e
+      # - name: test angular e2e
+      #   run: ng e2e
