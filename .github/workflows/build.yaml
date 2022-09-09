@@ -5,8 +5,10 @@ on:
     branches:
       - main
   push:
-    # branches:
-    #   - main
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   b1:
@@ -33,7 +35,3 @@ jobs:
       - name: build it
         run: |
           yarn
-      # - name: test angular
-      #   run: ng test
-      # - name: test angular e2e
-      #   run: ng e2e
