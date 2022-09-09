@@ -4608,7 +4608,7 @@ __metadata:
     "@popperjs/core": 2.11.6
     "@types/jasmine": 4.3.0
     bootstrap: 5.2.1
-    jasmine-core: 4.2.0
+    jasmine-core: 4.4.0
     karma: 6.4.0
     karma-chrome-launcher: 3.1.1
     karma-coverage: 2.2.0
@@ -5294,14 +5294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:4.2.0":
-  version: 4.2.0
-  resolution: "jasmine-core@npm:4.2.0"
-  checksum: 86c731bb4d3d1f0149ced89f5b5729dccdeda963c6e844e6ec6ac21a76f46086e9aa47bcb1bd65024b48685af3c8c970368665682deaf81bc01203a3ff9ab03f
-  languageName: node
-  linkType: hard
-
-"jasmine-core@npm:^4.1.0":
+"jasmine-core@npm:4.4.0, jasmine-core@npm:^4.1.0":
   version: 4.4.0
   resolution: "jasmine-core@npm:4.4.0"
   checksum: b52e2f17080dd33628dee73c8b6eb9fbe793126a5e4ceb77ecf164f15fc44f6b29baa1e034992630a866522f470d62dc2f3c364b234af3487a9507c9d1ae0d94
