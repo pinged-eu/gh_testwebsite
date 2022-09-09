@@ -42,7 +42,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-devkit/build-angular@npm:^14.1.2":
+"@angular-devkit/build-angular@npm:14.2.1":
   version: 14.2.1
   resolution: "@angular-devkit/build-angular@npm:14.2.1"
   dependencies:
@@ -200,7 +200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/animations@npm:^14.1.0":
+"@angular/animations@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/animations@npm:14.2.0"
   dependencies:
@@ -211,7 +211,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cli@npm:~14.1.2":
+"@angular/cli@npm:14.1.3":
   version: 14.1.3
   resolution: "@angular/cli@npm:14.1.3"
   dependencies:
@@ -241,7 +241,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/common@npm:^14.1.0":
+"@angular/common@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/common@npm:14.2.0"
   dependencies:
@@ -253,7 +253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler-cli@npm:^14.1.0":
+"@angular/compiler-cli@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/compiler-cli@npm:14.2.0"
   dependencies:
@@ -278,7 +278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/compiler@npm:^14.1.0":
+"@angular/compiler@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/compiler@npm:14.2.0"
   dependencies:
@@ -292,7 +292,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/core@npm:^14.1.0":
+"@angular/core@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/core@npm:14.2.0"
   dependencies:
@@ -304,7 +304,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/forms@npm:^14.1.0":
+"@angular/forms@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/forms@npm:14.2.0"
   dependencies:
@@ -318,7 +318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/localize@npm:^14.1.0":
+"@angular/localize@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/localize@npm:14.2.0"
   dependencies:
@@ -336,7 +336,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser-dynamic@npm:^14.1.0":
+"@angular/platform-browser-dynamic@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/platform-browser-dynamic@npm:14.2.0"
   dependencies:
@@ -350,7 +350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/platform-browser@npm:^14.1.0":
+"@angular/platform-browser@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/platform-browser@npm:14.2.0"
   dependencies:
@@ -366,7 +366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/router@npm:^14.1.0":
+"@angular/router@npm:14.2.0":
   version: 14.2.0
   resolution: "@angular/router@npm:14.2.0"
   dependencies:
@@ -2138,7 +2138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@popperjs/core@npm:^2.10.2":
+"@popperjs/core@npm:2.11.6":
   version: 2.11.6
   resolution: "@popperjs/core@npm:2.11.6"
   checksum: 47fb328cec1924559d759b48235c78574f2d71a8a6c4c03edb6de5d7074078371633b91e39bbf3f901b32aa8af9b9d8f82834856d2f5737a23475036b16817f0
@@ -2288,7 +2288,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:~4.0.0":
+"@types/jasmine@npm:4.0.3":
   version: 4.0.3
   resolution: "@types/jasmine@npm:4.0.3"
   checksum: 9d2af9ddb5750667bc9a3b439542fc9457c6eac2ab2c74801f598b03b9bc5cee1338fa8e75e6804dff1856e64539e8b0e3962ed8664a702f362d3db62eb9cd3a
@@ -4620,32 +4620,32 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "github-status-website@workspace:."
   dependencies:
-    "@angular-devkit/build-angular": ^14.1.2
-    "@angular/animations": ^14.1.0
-    "@angular/cli": ~14.1.2
-    "@angular/common": ^14.1.0
-    "@angular/compiler": ^14.1.0
-    "@angular/compiler-cli": ^14.1.0
-    "@angular/core": ^14.1.0
-    "@angular/forms": ^14.1.0
-    "@angular/localize": ^14.1.0
-    "@angular/platform-browser": ^14.1.0
-    "@angular/platform-browser-dynamic": ^14.1.0
-    "@angular/router": ^14.1.0
+    "@angular-devkit/build-angular": 14.2.1
+    "@angular/animations": 14.2.0
+    "@angular/cli": 14.1.3
+    "@angular/common": 14.2.0
+    "@angular/compiler": 14.2.0
+    "@angular/compiler-cli": 14.2.0
+    "@angular/core": 14.2.0
+    "@angular/forms": 14.2.0
+    "@angular/localize": 14.2.0
+    "@angular/platform-browser": 14.2.0
+    "@angular/platform-browser-dynamic": 14.2.0
+    "@angular/router": 14.2.0
     "@ng-bootstrap/ng-bootstrap": 13.0.0
-    "@popperjs/core": ^2.10.2
-    "@types/jasmine": ~4.0.0
+    "@popperjs/core": 2.11.6
+    "@types/jasmine": 4.0.3
     bootstrap: 5.2.0
-    jasmine-core: ~4.2.0
-    karma: ~6.4.0
-    karma-chrome-launcher: ~3.1.0
-    karma-coverage: ~2.2.0
-    karma-jasmine: ~5.1.0
-    karma-jasmine-html-reporter: ~2.0.0
-    rxjs: ~7.5.0
-    tslib: ^2.3.0
-    typescript: ~4.7.2
-    zone.js: ~0.11.4
+    jasmine-core: 4.2.0
+    karma: 6.4.0
+    karma-chrome-launcher: 3.1.1
+    karma-coverage: 2.2.0
+    karma-jasmine: 5.1.0
+    karma-jasmine-html-reporter: 2.0.0
+    rxjs: 7.5.6
+    tslib: 2.4.0
+    typescript: 4.7.4
+    zone.js: 0.11.8
   languageName: unknown
   linkType: soft
 
@@ -5322,17 +5322,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jasmine-core@npm:4.2.0":
+  version: 4.2.0
+  resolution: "jasmine-core@npm:4.2.0"
+  checksum: 86c731bb4d3d1f0149ced89f5b5729dccdeda963c6e844e6ec6ac21a76f46086e9aa47bcb1bd65024b48685af3c8c970368665682deaf81bc01203a3ff9ab03f
+  languageName: node
+  linkType: hard
+
 "jasmine-core@npm:^4.1.0":
   version: 4.4.0
   resolution: "jasmine-core@npm:4.4.0"
   checksum: b52e2f17080dd33628dee73c8b6eb9fbe793126a5e4ceb77ecf164f15fc44f6b29baa1e034992630a866522f470d62dc2f3c364b234af3487a9507c9d1ae0d94
-  languageName: node
-  linkType: hard
-
-"jasmine-core@npm:~4.2.0":
-  version: 4.2.0
-  resolution: "jasmine-core@npm:4.2.0"
-  checksum: 86c731bb4d3d1f0149ced89f5b5729dccdeda963c6e844e6ec6ac21a76f46086e9aa47bcb1bd65024b48685af3c8c970368665682deaf81bc01203a3ff9ab03f
   languageName: node
   linkType: hard
 
@@ -5440,7 +5440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-chrome-launcher@npm:~3.1.0":
+"karma-chrome-launcher@npm:3.1.1":
   version: 3.1.1
   resolution: "karma-chrome-launcher@npm:3.1.1"
   dependencies:
@@ -5449,7 +5449,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-coverage@npm:~2.2.0":
+"karma-coverage@npm:2.2.0":
   version: 2.2.0
   resolution: "karma-coverage@npm:2.2.0"
   dependencies:
@@ -5463,7 +5463,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-jasmine-html-reporter@npm:~2.0.0":
+"karma-jasmine-html-reporter@npm:2.0.0":
   version: 2.0.0
   resolution: "karma-jasmine-html-reporter@npm:2.0.0"
   peerDependencies:
@@ -5474,7 +5474,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma-jasmine@npm:~5.1.0":
+"karma-jasmine@npm:5.1.0":
   version: 5.1.0
   resolution: "karma-jasmine@npm:5.1.0"
   dependencies:
@@ -5494,7 +5494,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"karma@npm:~6.4.0":
+"karma@npm:6.4.0":
   version: 6.4.0
   resolution: "karma@npm:6.4.0"
   dependencies:
@@ -7530,7 +7530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rxjs@npm:^7.5.5, rxjs@npm:~7.5.0":
+"rxjs@npm:7.5.6, rxjs@npm:^7.5.5":
   version: 7.5.6
   resolution: "rxjs@npm:7.5.6"
   dependencies:
@@ -8350,7 +8350,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~4.7.2":
+"typescript@npm:4.7.4":
   version: 4.7.4
   resolution: "typescript@npm:4.7.4"
   bin:
@@ -8360,7 +8360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~4.7.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.7.4#~builtin<compat/typescript>":
   version: 4.7.4
   resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=a1c5e5"
   bin:
@@ -8862,7 +8862,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zone.js@npm:~0.11.4":
+"zone.js@npm:0.11.8":
   version: 0.11.8
   resolution: "zone.js@npm:0.11.8"
   dependencies:
