@@ -1,0 +1,28 @@
+name: build website
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    # branches:
+    #   - main
+
+jobs:
+  b1:
+    name: build
+    runs-on: ubuntu-22.04
+    steps:
+      - name: checkout sources
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: build it
+        run: |
+          yarn
+      - name: test angular
+        run: ng test
+      - name: test angular e2e
+        run: ng e2e
