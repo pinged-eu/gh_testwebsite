@@ -2004,9 +2004,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ng-bootstrap/ng-bootstrap@npm:13.1.0":
-  version: 13.1.0
-  resolution: "@ng-bootstrap/ng-bootstrap@npm:13.1.0"
+"@ng-bootstrap/ng-bootstrap@npm:13.1.1":
+  version: 13.1.1
+  resolution: "@ng-bootstrap/ng-bootstrap@npm:13.1.1"
   dependencies:
     tslib: ^2.3.0
   peerDependencies:
@@ -2016,7 +2016,7 @@ __metadata:
     "@angular/localize": ^14.1.0
     "@popperjs/core": ^2.10.2
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 24ac2fc162ebc4ee92066c6e0787012493aa20f013cb8a9065bb92d26e5e04212db5df9636f221c48a7fb5a13042d4cb0e6f221fb2050935b3479614eeb095b8
+  checksum: bfa310f09db475c36824b67c769d6aa584d34eb27f92c51da946793d931908d919b48761fc445890c71f9ab01eda21cd3840a02da364924c1ff717c878739d11
   languageName: node
   linkType: hard
 
@@ -4671,7 +4671,7 @@ __metadata:
     "@angular/platform-browser": 14.2.10
     "@angular/platform-browser-dynamic": 14.2.10
     "@angular/router": 14.2.10
-    "@ng-bootstrap/ng-bootstrap": 13.1.0
+    "@ng-bootstrap/ng-bootstrap": 13.1.1
     "@popperjs/core": 2.11.6
     "@types/jasmine": 4.3.0
     bootstrap: 5.2.2
