@@ -27,7 +27,8 @@ jobs:
           node-version: 18
       - name: install clients
         run: |
-          npm install -g @angular/cli
+          npm uninstall -g @angular/cli
+          npm install -g @angular/cli@latest
           ng config -g cli.packageManager yarn
       - name: Get npm cache directory
         id: npm-cache-dir
