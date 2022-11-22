@@ -6,5 +6,6 @@
     "commitMessagePrefix": "⬆️",
     "labels": [
         "dependencies"
-    ]
+    ],
+    "reviewersFromCodeOwners": true
 }
