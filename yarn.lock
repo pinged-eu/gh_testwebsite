@@ -3629,7 +3629,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.13":
+"autoprefixer@npm:10.4.13, autoprefixer@npm:^10.4.13":
   version: 10.4.13
   resolution: "autoprefixer@npm:10.4.13"
   dependencies:
@@ -5491,6 +5491,7 @@ __metadata:
     "@ng-bootstrap/ng-bootstrap": 13.1.1
     "@popperjs/core": 2.11.6
     "@types/jasmine": 4.3.0
+    autoprefixer: ^10.4.13
     bootstrap: 5.2.2
     jasmine-core: 4.5.0
     karma: 6.4.1
@@ -5498,6 +5499,7 @@ __metadata:
     karma-coverage: 2.2.0
     karma-jasmine: 5.1.0
     karma-jasmine-html-reporter: 2.0.0
+    postcss: ^8.4.19
     rxjs: 7.5.7
     tailwindcss: ^3.2.4
     tslib: 2.4.1
@@ -7692,7 +7694,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.19, postcss@npm:^8.4.18":
+"postcss@npm:8.4.19, postcss@npm:^8.4.18, postcss@npm:^8.4.19":
   version: 8.4.19
   resolution: "postcss@npm:8.4.19"
   dependencies:
