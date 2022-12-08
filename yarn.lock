@@ -176,9 +176,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/cdk@npm:15.0.1":
-  version: 15.0.1
-  resolution: "@angular/cdk@npm:15.0.1"
+"@angular/cdk@npm:15.0.2":
+  version: 15.0.2
+  resolution: "@angular/cdk@npm:15.0.2"
   dependencies:
     parse5: ^7.1.2
     tslib: ^2.3.0
@@ -189,7 +189,7 @@ __metadata:
   dependenciesMeta:
     parse5:
       optional: true
-  checksum: 7942b9649191cd52be45201d08d7d819977d1d0092a38a49a3793aece4139ae1c212ed5a09f93e44c3d6ffd99a1529a156aba6880250d081f4e9a86adde1b07d
+  checksum: b171fbb8863ebd5822072c8a7d6b0979f3fc1d162c12fafe68d5d599a79a2339e07aacc72c0ea2bbc027c80cc88422f0e25408d522bf917ca1a55bab6f43b856
   languageName: node
   linkType: hard
 
@@ -316,9 +316,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular/material@npm:15.0.1":
-  version: 15.0.1
-  resolution: "@angular/material@npm:15.0.1"
+"@angular/material@npm:15.0.2":
+  version: 15.0.2
+  resolution: "@angular/material@npm:15.0.2"
   dependencies:
     "@material/animation": 15.0.0-canary.7971d6ad5.0
     "@material/auto-init": 15.0.0-canary.7971d6ad5.0
@@ -370,13 +370,13 @@ __metadata:
     tslib: ^2.3.0
   peerDependencies:
     "@angular/animations": ^15.0.0 || ^16.0.0
-    "@angular/cdk": 15.0.1
+    "@angular/cdk": 15.0.2
     "@angular/common": ^15.0.0 || ^16.0.0
     "@angular/core": ^15.0.0 || ^16.0.0
     "@angular/forms": ^15.0.0 || ^16.0.0
     "@angular/platform-browser": ^15.0.0 || ^16.0.0
     rxjs: ^6.5.3 || ^7.4.0
-  checksum: 5a1aacd614861d8a26cd7c4279f3c0ad0163891ee42058e698ccb802869478212936719684e3a97d08b59255db919de46c53b4270e1ee2bcf8da797f18b42936
+  checksum: a79da5b714a58fc219b4f70f27950f9dcc618efaa4d846d0d1617f03466b79cc3ebc6def43f5b21ed0722c191b1ae5458002a0d2afa44d07fd0aa5d97727bf2b
   languageName: node
   linkType: hard
 
@@ -5484,7 +5484,7 @@ __metadata:
   dependencies:
     "@angular-devkit/build-angular": 15.0.3
     "@angular/animations": 15.0.3
-    "@angular/cdk": 15.0.1
+    "@angular/cdk": 15.0.2
     "@angular/cli": 15.0.3
     "@angular/common": 15.0.3
     "@angular/compiler": 15.0.3
@@ -5492,7 +5492,7 @@ __metadata:
     "@angular/core": 15.0.3
     "@angular/forms": 15.0.3
     "@angular/localize": 15.0.3
-    "@angular/material": 15.0.1
+    "@angular/material": 15.0.2
     "@angular/platform-browser": 15.0.3
     "@angular/platform-browser-dynamic": 15.0.3
     "@angular/router": 15.0.3
