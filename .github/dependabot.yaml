@@ -8,7 +8,11 @@ updates:
       day: "sunday" # only when weekly is set!
       #      time: "18:00"
       timezone: "Europe/Berlin"
+    reviewers: # you can also use assignees
+      - "lexxy23"
     labels:
       - "githubactions"
       - "updates"
     open-pull-requests-limit: 5
+    commit-message:
+      prefix: "🔨"
