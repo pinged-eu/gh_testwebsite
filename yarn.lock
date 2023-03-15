@@ -7877,7 +7877,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.10":
+"postcss-selector-parser@npm:^6.0.10, postcss-selector-parser@npm:^6.0.11":
   version: 6.0.11
   resolution: "postcss-selector-parser@npm:6.0.11"
   dependencies:
@@ -7904,7 +7904,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.21":
+"postcss@npm:8.4.21, postcss@npm:^8.0.9":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -7923,17 +7923,6 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 10eee25efd77868036403858577da0cefaf2e0905feeaba5770d5438ccdddba3d01cba8063e96b8aac4c6daa0ed413dd5ae0554a433a3c4db38df1d134cffc1f
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.18":
-  version: 8.4.19
-  resolution: "postcss@npm:8.4.19"
-  dependencies:
-    nanoid: ^3.3.4
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: 62782723a385f92b7525f66d29614624de7c5643855423db3a5efd9287e677650300192749adddbbb6734cea9b1d5f5fd4f6ea00ca3f9a95dbbb88f835f5ca64
   languageName: node
   linkType: hard
 
@@ -8977,8 +8966,8 @@ __metadata:
   linkType: hard
 
 "tailwindcss@npm:^3.2.4":
-  version: 3.2.4
-  resolution: "tailwindcss@npm:3.2.4"
+  version: 3.2.7
+  resolution: "tailwindcss@npm:3.2.7"
   dependencies:
     arg: ^5.0.2
     chokidar: ^3.5.3
@@ -8994,12 +8983,12 @@ __metadata:
     normalize-path: ^3.0.0
     object-hash: ^3.0.0
     picocolors: ^1.0.0
-    postcss: ^8.4.18
+    postcss: ^8.0.9
     postcss-import: ^14.1.0
     postcss-js: ^4.0.0
     postcss-load-config: ^3.1.4
     postcss-nested: 6.0.0
-    postcss-selector-parser: ^6.0.10
+    postcss-selector-parser: ^6.0.11
     postcss-value-parser: ^4.2.0
     quick-lru: ^5.1.1
     resolve: ^1.22.1
@@ -9008,7 +8997,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: ec187d180c722ec4f57537f2216c7b21269b525f12aaf353cea464d939c3e6286a1221eb3e1206e45d1f015f296171309ad4d9952899b0245cd07d9500a9401f
+  checksum: 819446bf67acea1fc738f345d80f328b7bb6e6ef4b24070249a11219307045881cf97baed6258cbdcede7fa18886e9c9c41fd0fa087b3e987cf2948560a2f164
   languageName: node
   linkType: hard
 
