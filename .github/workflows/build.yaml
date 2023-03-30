@@ -55,5 +55,4 @@ jobs:
       - name: install packages
         run: yarn install
       - name: build it with ng
-        run: |
-          ng build
+        run: ng build
