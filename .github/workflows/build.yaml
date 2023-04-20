@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-22.04
     env:
       MY_YARN_CACHE_DIR: .yarn/cache
+      CI: true
     steps:
       - name: checkout sources
         uses: actions/checkout@v3
@@ -27,25 +28,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: install clients
-        run: |
-          npm uninstall -g @angular/cli
-          npm install -g @angular/cli@latest
-          ng config -g cli.packageManager yarn
-      - name: Get npm cache directory
-        id: npm-cache-dir
-        run: |
-          echo "::set-output name=dir::$(npm config get cache)"
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-      - uses: actions/cache@v3
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir || env.MY_YARN_CACHE_DIR }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          cache: 'yarn'
+      - name: uninstall old angular cli
+        run: npm uninstall -g @angular/cli
+      - name: install latest angular cli
+        run: npm install -g @angular/cli@latest
+      - name: configure angular to use yarn
+        run: ng config -g cli.packageManager yarn
       - name: print versions
         run: |
           echo "NPM: $(npm -v)"
@@ -53,6 +42,6 @@ jobs:
           echo "Yarn: $(yarn -v)"
           echo "NG: $(ng version)"
       - name: install packages
-        run: yarn install
+        run: yarn --immutable
       - name: build it with ng
         run: ng build
