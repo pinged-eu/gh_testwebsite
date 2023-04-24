@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Build the container image
+
+Run:
+
+```shell
+podman build -t ghstatus:latest .
+```
+
+and to start the imate as a container:
+
+```shell
+podman run -p 18080:8080 ghstatus:latest
+```
+
+and open http://localhost:18080/
