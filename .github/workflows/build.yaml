@@ -44,4 +44,4 @@ jobs:
       - name: install packages
         run: yarn --immutable
       - name: build it with ng
-        run: ng build
+        run: PATH=$(pwd)/node_modules/.bin:$PATH ng build
