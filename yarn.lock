@@ -4289,12 +4289,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:5.2.2":
-  version: 5.2.2
-  resolution: "bootstrap@npm:5.2.2"
+"bootstrap@npm:5.3.0":
+  version: 5.3.0
+  resolution: "bootstrap@npm:5.3.0"
   peerDependencies:
-    "@popperjs/core": ^2.11.6
-  checksum: 14e6df28feb975dc10702cac0a6c2a21132a6e4e5562e31cdae1db3970e287ed29001020066b61d96b2cea2a45ecf44c08c8c26bc84a31cdeabec0a9be6b9389
+    "@popperjs/core": ^2.11.7
+  checksum: 29a83cc8cac96d70051e265a5da342cc488df8fc76dff6746ef7d155698286cd5bdfa3e52c6ebf09f8e5a97f25929ee97aee36237117732e52b0d3276a72c45c
   languageName: node
   linkType: hard
 
@@ -5919,7 +5919,7 @@ __metadata:
     "@ng-bootstrap/ng-bootstrap": 15.0.0
     "@popperjs/core": 2.11.8
     "@types/jasmine": 4.3.2
-    bootstrap: 5.2.2
+    bootstrap: 5.3.0
     jasmine-core: 5.0.0
     karma: 6.4.2
     karma-chrome-launcher: 3.2.0
