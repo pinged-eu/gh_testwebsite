@@ -9,7 +9,8 @@
     ],
     "reviewersFromCodeOwners": true,
     "additionalReviewers": [
-		  "lexxy23"
+		  "lexxy23",
+      "team:pinged-eu/fe-devs"
 	  ],
     "baseBranches": [
         "develop"
