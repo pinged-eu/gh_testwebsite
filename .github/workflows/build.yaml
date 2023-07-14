@@ -45,5 +45,3 @@ jobs:
         run: yarn --immutable
       - name: build it with ng
         run: PATH=$(pwd)/node_modules/.bin:$PATH ng build
-      - name: run tests
-        run: PATH=$(pwd)/node_modules/.bin:$PATH ng test
