@@ -9,7 +9,7 @@ updates:
       timezone: "Europe/Berlin"
     open-pull-requests-limit: 20
     reviewers: # you can also use assignees
-      - "lexxy23"
+      - "pinged-eu/fe-devs"
     commit-message:
       prefix: "⬆️"
     # here you define the labels, if required. You may also omit them to rely on dependabots default values!
@@ -24,7 +24,7 @@ updates:
       #      time: "18:00"
       timezone: "Europe/Berlin"
     reviewers: # you can also use assignees
-      - "lexxy23"
+      - "pinged-eu/fe-devs"
     labels:
       - "githubactions"
       - "updates"

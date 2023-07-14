@@ -1,18 +1,9 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "config:base"
-    ],
-    "commitMessagePrefix": "⬆️",
-    "labels": [
-        "dependencies"
-    ],
-    "reviewersFromCodeOwners": true,
-    "additionalReviewers": [
-		  "lexxy23",
-      "team:pinged-eu/fe-devs"
-	  ],
-    "baseBranches": [
-        "develop"
-    ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base"],
+  "commitMessagePrefix": "⬆️",
+  "labels": ["dependencies"],
+  "reviewersFromCodeOwners": true,
+  "additionalReviewers": ["team:pinged-eu/fe-devs"],
+  "baseBranches": ["develop"]
 }
