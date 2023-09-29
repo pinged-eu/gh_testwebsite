@@ -1,9 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "timezone": "Europe/Berlin",
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ],
   "extends": ["config:base"],
+  "packageRules": [
+    {
+      "description": "Automatically merge minor and patch-level updates",
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ],
   "commitMessagePrefix": "⬆️",
-  "labels": ["dependencies"],
+  "addLabels": ["dependencies"],
   "reviewersFromCodeOwners": true,
-  "additionalReviewers": ["team:pinged-eu/fe-devs"],
-  "baseBranches": ["develop"]
+  "additionalReviewers": ["lexxy23", "rusty232", "team:fe-devs"],
+  "branchConcurrentLimit": 5,
+  "prConcurrentLimit": 9
 }
