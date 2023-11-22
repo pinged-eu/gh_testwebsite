@@ -4023,10 +4023,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jasmine@npm:5.1.2":
-  version: 5.1.2
-  resolution: "@types/jasmine@npm:5.1.2"
-  checksum: e0cf7aef3fdb4c31847a031fd26515bdd436ff158536b9a1bfd3fdc64513de8c3ee94f20c58242b839911d0b83448864511e7bf7015bf1b74ca7cf407feb1c02
+"@types/jasmine@npm:5.1.4":
+  version: 5.1.4
+  resolution: "@types/jasmine@npm:5.1.4"
+  checksum: 4b8d27182e62f5003db1f1f174a810ace704e411cbfd0bc41edbaacf307246aec1f9bd20812846700198fc881268834ffde1d5301f819b1ba7caac9662534ceb
   languageName: node
   linkType: hard
 
@@ -6581,7 +6581,7 @@ __metadata:
     "@angular/router": "npm:16.2.12"
     "@ng-bootstrap/ng-bootstrap": "npm:15.1.2"
     "@popperjs/core": "npm:2.11.8"
-    "@types/jasmine": "npm:5.1.2"
+    "@types/jasmine": "npm:5.1.4"
     bootstrap: "npm:5.3.2"
     jasmine-core: "npm:5.1.1"
     karma: "npm:6.4.2"
