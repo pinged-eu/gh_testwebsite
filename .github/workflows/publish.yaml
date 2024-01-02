@@ -1,0 +1,35 @@
+name: Publish Website
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request: # for testing!!
+    branches:
+      - develop
+
+concurrency:
+  group: ${{ github.ref }}-publish
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-22.04
+    env:
+      IMAGE_NAME: quay.io/ds2/gh-repo-manager
+      REGISTRY: ghcr.io/major
+      MY_YARN_CACHE_DIR: .yarn/cache
+      CI: true
+    steps:
+      - name: Clone the repository
+        uses: actions/checkout@v3
+      - name: build dist
+        uses: ./.github/workflows/build.yaml
+      - name: Buildah Action
+        id: build-image
+        uses: redhat-actions/buildah-build@v2
+        with:
+          image: ${{ env.IMAGE_NAME }}
+          tags: latest ${{ github.sha }}
+          containerfiles: |
+            ./Containerfile
