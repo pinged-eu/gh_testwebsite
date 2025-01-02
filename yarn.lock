@@ -6766,7 +6766,7 @@ __metadata:
     tailwindcss: "npm:^3.2.4"
     tslib: "npm:2.8.1"
     typescript: "npm:5.1.6"
-    zone.js: "npm:0.14.7"
+    zone.js: "npm:0.15.0"
   languageName: unknown
   linkType: soft
 
@@ -11807,9 +11807,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zone.js@npm:0.14.7":
-  version: 0.14.7
-  resolution: "zone.js@npm:0.14.7"
-  checksum: 10c0/5a5fccb78ea4653ccf3ad5c11448ffa4e005b50a0fd43da713fcc19584746000ea889ca45163d2e6e18e3a4ed7be42cdbc0dbb4dcb28449f02d23408696668cc
+"zone.js@npm:0.15.0":
+  version: 0.15.0
+  resolution: "zone.js@npm:0.15.0"
+  checksum: 10c0/981b664c1978759a2854f6e6692d245d1d6334c6b20b7e2e5fa9b60eed74743b29c6a71f7472dc6d2790ab53d67e30475bcd92b9f7664e50aef8bbcd40379552
   languageName: node
   linkType: hard
